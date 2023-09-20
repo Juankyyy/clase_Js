@@ -1,12 +1,5 @@
+const items = [2, 3, 5, 7, 11, 13, 17];
 
-//----------------------------------
-// 1. Entrada del programa Input (I)
-//----------------------------------
-const items = [2, 3, 5, 7, 11, 13, 17]; // index es el cursor
-//----------------------------------
-// 2. Definición función de búsqueda
-//----------------------------------
-// A la función de busqueda le vamos a pasar dos parametros: el array items y el elemento_a_buscar y el objetivo del algoritmo es encontrar en que posición está el elemento_a_buscar
 function search(items, elemento_a_buscar) { 
   let posicion = 0;
   const total_itemsArray = items.length;
@@ -16,25 +9,40 @@ function search(items, elemento_a_buscar) {
       return posicion;
 
     }
-    posicion++; // sumar 1 a la variable
+    posicion++;
   }
   return null;
 }
-//-----------------------------------------------------------
-// 3. Ejecución de la función: buscar un elemento en el array
-//-----------------------------------------------------------
-const resultado = search(items, 13);
-//----------------------------------
-// 4. Salida del programa Output (O)
-//----------------------------------
+
+const resultado = search(items, 7);
+
 const container = document.querySelector('#container');
 const resultadoHTML = document.createElement('p');
-resultadoHTML.id = 'resultado'; // Asigna el ID que desees
+resultadoHTML.id = 'resultado';
 
 if (resultado !== null) {
   resultadoHTML.textContent = `El elemento se encuentra en la posición: ${resultado} \u{1F643}`;
 } else {
   resultadoHTML.textContent = 'El elemento no se encuentra en el array \u{1F644}';
 }
-
 container.appendChild(resultadoHTML);
+
+function search2(items, posicion_a_buscar) {
+  if (posicion_a_buscar <= items.length) {
+    return items[posicion_a_buscar];
+  }
+return null;
+}
+
+const resultado2 = search2(items, 3);
+
+const resultado2HTML = document.createElement('p');
+resultado2HTML.id = "resultado2";
+
+if (resultado2 !== null) {
+  resultado2HTML.textContent = `En esta posición se encuentra el elemento: ${resultado2} \u{1F643}`;
+} else {
+  resultado2HTML.textContent = 'La posición no se encuentra en el array \u{1F644}';
+}
+
+container.appendChild(resultado2HTML);

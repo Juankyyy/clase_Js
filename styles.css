@@ -11,12 +11,18 @@ body {
     color: #fff;
 }
 
-#resultado {
+p {
     font-size: 35px;
 }
 
+#resultado {
+    margin-bottom: 100px;
+}
+
 #container {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
