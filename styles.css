@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
-body {
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Mooli', sans-serif;
+}
+
+body {
     background-color: #222;
     color: #fff;
-    text-decoration: none;
+}
+
+#resultado {
+    font-size: 35px;
+}
+
+#container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
