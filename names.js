@@ -1,4 +1,4 @@
-const nombres = ["Juanky", "Santiago", "Camila", "Mariana", "Susana"];
+const nombres = ["Daniel", "Santiago", "Camila", "Mariana", "Susana"];
 
 function contNombres(nombres) {
 

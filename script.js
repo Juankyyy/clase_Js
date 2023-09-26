@@ -40,7 +40,7 @@ const resultado2HTML = document.createElement('p');
 resultado2HTML.id = "resultado2";
 
 if (resultado2 !== null) {
-  resultado2HTML.textContent = `En esta posición se encuentra el elemento: ${resultado2} \u{1F643}`;
+  resultado2HTML.textContent = `En esta posición se encuentra el elemento: ${resultado2} \u{1F642}`;
 } else {
   resultado2HTML.textContent = 'La posición no se encuentra en el array \u{1F644}';
 }
