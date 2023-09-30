@@ -57,15 +57,19 @@ p {
     height: 90vh;
 }
 
+.subtitle {
+    color: #ffffff7c;
+}
+
 /* Clase 2 */
 .title {
     font-size: 32px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 
-#main {
+.main-2 {
     margin-left: 20px;
     font-size: 20px;
 }
@@ -73,4 +77,9 @@ p {
 .content {
     display: flex;
     align-items: baseline;
+}
+
+/* Clase 3 */
+.main-3 {
+    margin-left: 20px;
 }
