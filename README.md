@@ -1,4 +1,4 @@
 # clase_Js
 
 ### Repo Clase JavaScript
-### [Deploy](https://juankyyy.github.io/clase_Js/)
+### [Deployment](https://juankyyy.github.io/clase_Js/)
