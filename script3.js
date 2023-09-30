@@ -15,10 +15,10 @@ letters.forEach(() => console.log("Un elemento de función flecha"));
 
 
 // Función Flecha
-const cars = ["BMW", " Nissan ", " Ferrari ", " Ford"];
+const cars = ["BMW", " Nissan", " Ferrari", " Ford"];
 
-const pushCar = (cars) => {cars.push(" KIA")}
-pushCar(cars);
+const pushCar = () => {cars.push(" KIA")}
+pushCar();
 
 const resultadoCars = document.querySelector("#array");
 resultadoCars.textContent = cars;

@@ -61,6 +61,24 @@ p {
     color: #ffffff7c;
 }
 
+.footerContent {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+}
+
+.footer {
+    font-size: 20px;
+    color: #b6b0a6;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer:hover {
+    color: #fff;
+}
+
 /* Clase 2 */
 .title {
     font-size: 32px;
