@@ -11,25 +11,12 @@ body {
     color: #fff;
 }
 
-
-p {
-    font-size: 35px;
-}
-
-#resultado {
-    margin-bottom: 100px;
-}
-
-#container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+.main-1 {
+    margin-left: 20px;
 }
 
 #navbar {
-    width: 100vw;
+    /* width: 100vw; */
     background-color: #000;
     border-bottom: 1px dashed #fff;
     display: flex;
@@ -57,10 +44,6 @@ p {
     height: 90vh;
 }
 
-.subtitle {
-    color: #ffffff7c;
-}
-
 .footerContent {
     position: absolute;
     bottom: 0px;
@@ -85,6 +68,15 @@ p {
     margin-top: 40px;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contenido {
+    color: #ffffff7c;
 }
 
 .main-2 {
